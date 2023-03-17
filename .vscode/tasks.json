@@ -1,0 +1,12 @@
+// connect wireless device
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "connect wireless device",
+      "type": "shell",
+      "command": "adb connect $1",
+      "problemMatcher": []
+    }
+  ]
+}
